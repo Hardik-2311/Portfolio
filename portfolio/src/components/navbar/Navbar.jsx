@@ -1,0 +1,39 @@
+import React from "react";
+import { Link } from "react-scroll";
+import { navLinksdata } from "../../Constants";
+import { logo, logo2 } from "../../assets";
+console.log(navLinksdata);
+const Navbar = () => {
+  return (
+    <div className="wrapper flex justify-between items-center w-[90%] h-20 mx-auto font-titleFont border-b-[1px] border-b-white">
+      <div className="font-tileFont text-3xl">
+        Hardik <span className="text-designColor">Narang</span>
+      </div>
+      <div className="flex">
+        <ul className="flex items-center gap-10 ">
+          {navLinksdata.map((data) => {
+            return (
+              <li
+                key={data.id}
+                className="cursor-pointer text-base  font-normal text-gray-400 tracking-wide hover:text-designColor duration-300"
+              >
+                <Link
+                  activeClass="active"
+                  to={data.link}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  {data.title}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
