@@ -5,7 +5,7 @@ import { logo, logo2 } from "../../assets";
 console.log(navLinksdata);
 const Navbar = () => {
   return (
-    <div className="wrapper flex justify-between items-center w-[90%] h-20 mx-auto font-titleFont border-b-[1px] border-b-white">
+    <div className="wrapper sticky z-50 bg-bodyColor top-0 flex justify-between items-center w-[90%] h-20 mx-auto font-titleFont border-b-[1px] border-b-white">
       <div className="font-tileFont text-3xl">
         Hardik <span className="text-designColor">Narang</span>
       </div>
