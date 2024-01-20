@@ -21,13 +21,13 @@ const Leftbanner = () => {
   return (
     <>
       <div className="flex flex-col gap-4">
-        <h4 className="text-lg text-lightText font-normal uppercase">
+        <h4 className="text-lg text-center md:text-left text-lightText font-normal uppercase">
           Welcome guys
         </h4>
-        <h1 className="text-6xl font-bold text-white">
+        <h1 className="text-5xl lgl:text-6xl font-bold text-white">
           Hi I'm <span className="text-designColor">Hardik</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-3xl lgl:text-4xl font-bold text-white">
           a <span>{text}</span>
           <Cursor cursorColor="#ff014f" />
         </h2>
@@ -39,7 +39,7 @@ const Leftbanner = () => {
           projects.
         </p>
       </div>
-      <div className="flex gap-10 items-center w-full">
+      <div className="flex flex-col lgl:flex-row gap-10 items-center w-full">
         <div>
           <h2 className="text-base uppercase font-titleFont text-center mb-4 mt-4">
             Find Me in

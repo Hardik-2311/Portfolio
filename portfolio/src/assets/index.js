@@ -1,6 +1,7 @@
 import docker from "./images/docker.png";
 import html from "./images/html.png";
 import css from "./images/css.png";
+import contact from "./images/contactImg.png";
 import django from "./images/django.webp";
 import javascript from "./images/javascript.png";
 import reactImage from "./images/react.png";
@@ -19,4 +20,5 @@ export {
   tailwind,
   docker,
   django,
+  contact,
 };

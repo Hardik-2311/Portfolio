@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="Here is my portfolio" desc="My projects" />
       </div>
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 gap-20">
       <ProjectCard
           title="SOCIAL MEDIA CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
