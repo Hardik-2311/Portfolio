@@ -5,7 +5,7 @@ import {banner} from "../../assets"
 
 const Projects = () => {
   return (
-    <section id="projects" className=" py-10  w-[90%] mx-auto">
+    <section id="projects" className=" py-10  w-[90%] mx-auto border-b-[1px] border-b-white">
       <div className="flex justify-center items-center text-center">
         <Title title="Here is my portfolio" desc="My projects" />
       </div>
